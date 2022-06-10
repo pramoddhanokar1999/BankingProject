@@ -93,6 +93,7 @@ WebDriver driver ;
 	{
 		expliciteWait(driver,EnterUPI);
 		EnterUPI.sendKeys(getDataFromPropertyFile("UPI"));
+		
 	}
 	
 	public void is_ClickCDepositButton4() throws InterruptedException, IOException
