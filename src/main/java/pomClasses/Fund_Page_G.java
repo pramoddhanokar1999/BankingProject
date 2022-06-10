@@ -15,6 +15,8 @@ WebDriver driver ;
 //1
 	@FindBy(xpath="(//div[text()='All transactions'])")
 	private WebElement AllTransaction;
+	
+	
 //2	
 	@FindBy(xpath="//div[text()='Balance available']")
 	private WebElement fundAvailableText;
